@@ -9,7 +9,7 @@
     body {
     font-family: Arial, Helvetica, sans-serif;
     }
-    #pinterest-picture {
+  #pinterest-picture {
     background-image: url(beach.jpg);
     height: 800px;
     width: 450px;
@@ -17,11 +17,16 @@
     background-size: contain;
     margin-top: 10px;
     margin-left: 550px;
-    border-radius: 10px;
+    border-radius: 40px;
     object-fit: fill;
+    box-shadow: 0px 5px 60px rgba(0, 0, 0, 0.25);
+    transition: box-shadow .5s;
     z-index: 1;
     }
-    #picture-save-bottom {
+  #pinterest-picture:hover {
+    box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.65);
+  }
+  #picture-save-bottom {
     color: white;
     position: absolute;
     left: 869px;
@@ -29,7 +34,7 @@
     font-size: 40px;
     z-index: 6;
     }
-    #picture-westwing-site {
+  #picture-westwing-site {
     color: black;
     margin: 15px;
     font-size: 40px;
@@ -40,7 +45,7 @@
     text-overflow: ellipsis;
     margin-left: 25pt;
     }
-    #save-bottom {
+  #save-bottom {
     background-image: url(red.png);
     height: 100px;
     width: 170px;
@@ -50,7 +55,7 @@
     border-radius: 50px;
     z-index: 2;
     }
-    #westwing-bottom {
+  #westwing-bottom {
     background-image: url(white.png);
     height: 80px;
     width: 300px;
@@ -60,7 +65,7 @@
     border-radius: 50px;
     z-index: 3;
     }
-    #westwing-bottom-two {
+  #westwing-bottom-two {
     background-image: url(white.png);
     height: 80px;
     width: 80px;
@@ -92,8 +97,9 @@
     </div>
     <div id="westwing-bottom-two">
       <div id="ellipse">...</div> 
+    </div> 
   </div>
-  </div>
+
   
 </body>
 </html>
