@@ -19,6 +19,7 @@
     margin-left: 550px;
     border-radius: 10px;
     object-fit: fill;
+    z-index: 1;
     }
     #picture-save-bottom {
     color: white;
@@ -26,6 +27,7 @@
     left: 869px;
     top: 65px;
     font-size: 40px;
+    z-index: 6;
     }
     #picture-westwing-site {
     color: black;
@@ -34,6 +36,7 @@
     top: 735px;
     font-size: 40px;
     font-weight: 600;
+    z-index: 5;
     }
     #save-bottom {
     background-image: url(red.png);
@@ -43,6 +46,7 @@
     margin-top: 20px;
     margin-left: 270px;
     border-radius: 50px;
+    z-index: 2;
     }
     #westwing-bottom {
     background-image: url(white.png);
@@ -52,6 +56,7 @@
     margin-top: 680px;
     margin-left: -250px;
     border-radius: 50px;
+    z-index: 3
     }
     #westwing-bottom-two {
     background-image: url(white.png);
@@ -61,7 +66,18 @@
     margin-top: 0px;
     margin-left: 325px;
     border-radius: 50px;
+    z-index: 4;
     }
+  #ellipse {
+    color: black;
+    position: absolute;
+    left: 913px;
+    top: 700px;
+    font-size: 40px;
+    font-weight: 600;
+    z-index: 7;
+  }
+    
   </style>
 </head>
 <body>
@@ -69,8 +85,9 @@
     <div id="save-bottom">
     <div id="westwing-bottom">
     <div id="westwing-bottom-two">
+    <div id="ellipse">...</div> 
       <div id="picture-save-bottom">Save</div>
-      <div id="picture-westwing-site">westwing.com</div>
+      <div id="picture-westwing-site">westwing.com</div> 
     </div>
     </div>
     </div>
