@@ -7,7 +7,7 @@
   <title>pinterest picture</title>
   <style>
     body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'DM Sans', sans-serif;
     }
   #pinterest-picture {
     background-image: url(beach.jpg);
@@ -29,29 +29,41 @@
   #picture-save-bottom {
     color: white;
     position: absolute;
-    left: 869px;
-    top: 65px;
-    font-size: 40px;
-    z-index: 6;
+    left: 885px;
+    top: 73px;
+    font-size: 25px;
+    z-index: 7;
+    text-shadow: 1px 1px 1px #000000;
     }
+  #arrow {
+    margin-top: -57pt;
+    margin-left: 8pt;
+    background-image: url(arrow.png);
+    height: 1000px;
+    background-repeat: no-repeat;
+    width: 55pt;
+    object-fit: fill;
+    background-size: contain;
+    z-index: 5;
+  }
   #picture-westwing-site {
     color: black;
-    margin: 15px;
-    font-size: 40px;
+    margin: 25px;
+    font-size: 25px;
     font-weight: 600;
-    z-index: 5;
+    z-index: 6;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    margin-left: 25pt;
+    margin-left: 60pt;
     }
   #save-bottom {
     background-image: url(red.png);
-    height: 100px;
-    width: 170px;
+    height: 75px;
+    width: 130px;
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 270px;
+    margin-top: 32px;
+    margin-left: 290px;
     border-radius: 50px;
     z-index: 2;
     }
@@ -64,6 +76,7 @@
     margin-left: 30px;
     border-radius: 50px;
     z-index: 3;
+    box-shadow: 1px 0px 5px rgb(0 0 0 / 25%);
     }
   #westwing-bottom-two {
     background-image: url(white.png);
@@ -74,15 +87,16 @@
     margin-left: 260pt;
     border-radius: 50px;
     z-index: 4;
+    box-shadow: 1px 0px 5px rgb(0 0 0 / 25%);
     }
   #ellipse {
     color: black;
     position: absolute;
-    left: 917px;
-    top: 700px;
-    font-size: 70px;
+    left: 924px;
+    top: 705px;
+    font-size: 50px;
     font-weight: 600;
-    z-index: 7;
+    z-index: 8;
   }
     
   </style>
@@ -93,7 +107,8 @@
       <div id="picture-save-bottom">Save</div>
     </div>
     <div id="westwing-bottom">
-      <div id="picture-westwing-site">www.westwing.cz/campaign-for-beach-magazine-studio</div>
+      <div id="picture-westwing-site">westwing.cz/campaign-for-beach-magazine-studio</div>
+      <div id="arrow"></div>
     </div>
     <div id="westwing-bottom-two">
       <div id="ellipse">...</div> 
